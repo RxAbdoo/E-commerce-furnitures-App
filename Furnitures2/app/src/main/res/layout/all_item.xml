@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_circular_border"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:elevation="3dp"
+    android:padding="@dimen/medium">
+
+    <ImageView
+        android:id="@+id/all_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/unnamed" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/small"
+            android:paddingRight="@dimen/small">
+
+            <TextView
+                android:id="@+id/all_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edison Table Lamp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/textColor"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/all_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="50dp"
+                    android:text="350$"
+                    android:layout_marginTop="7dp"
+                    android:textColor="#3EB81A"
+                    android:textSize="13sp" />
+
+                <CheckBox
+                    android:id="@+id/all_cb"
+                    android:layout_width="30dp"
+                    android:layout_height="27dp"
+                    android:layout_marginTop="7dp"
+                    android:button="@drawable/toggle" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
